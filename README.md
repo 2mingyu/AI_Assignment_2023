@@ -37,3 +37,11 @@ https://www.kaggle.com/datasets/crawford/emnist
 EMNIST 데이터셋
 
 mnist_train.csv 는 원래 60000개의 rows지만 github 업로드를 위해 50000개로 용량 축소 후 업로드
+
+## 프로젝트
+
+DDPM (Denoise Diffusion Probabilistic Models)  
+colab T4 GPU 기준, FashionMNIST(epoch 20) + MNIST(epoch 20) : 약 20분 소요  
+내 local 환경 기준, FashionMNIST(epoch 10) + MNIST(epoch 10) : 약 20분 소요  
+https://arxiv.org/pdf/2006.11239.pdf  
+https://github.com/BrianPulfer/PapersReimplementations/blob/main/src/cv/ddpm/notebook/DDPM.ipynb
